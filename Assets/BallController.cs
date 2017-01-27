@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour {
 
+    //General behaviour should be
+    //Phase 1 - standard moving/rolling controls
+    //Phase 2 - flight - lift depends on angle and wind
+    //Phase 3 - locked controls
+    //Phases will change when in air + button pressed - 1-2-3.
+
     private Rigidbody rb;
     public float force;
     public Camera cam;
